@@ -1,6 +1,6 @@
 # throwInH5
 
-爱音乐互拓投流H5项目
+H5项目
 
 ### node.js版本：18.16.1，[vue](https://cn.vuejs.org/guide/introduction.html)版本：3.3，ui库：[vant4.0](https://vant-contrib.gitee.io/vant/#/zh-CN), 打包工具：[vite](https://vitejs.dev/config/)
 

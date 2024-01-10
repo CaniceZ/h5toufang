@@ -32,7 +32,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api-test': { // 代理demo
-        target: 'https://wxmcard.imusic.cn/xcx/api-test',
+        target: 'https://wxmcard.xxx.cn/xcx/api-test',
         changeOrigin: true,
         ws: true,
         rewrite: (path) => path.replace(/^\/api-test/, '/')
