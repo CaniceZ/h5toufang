@@ -3,11 +3,11 @@
 
 <template>
   <router-view v-slot="{ Component, route }">
-      <keep-alive>
-        <component :is="Component" v-if="isKeepAlive" :key="route.path" />
-      </keep-alive>
-      <component :is="Component" v-if="!isKeepAlive" />
-    </router-view>
+    <keep-alive>
+      <component :is="Component" v-if="isKeepAlive" :key="route.path" />
+    </keep-alive>
+    <component :is="Component" v-if="!isKeepAlive" />
+  </router-view>
 </template>
 <script setup>
 import { computed } from 'vue'

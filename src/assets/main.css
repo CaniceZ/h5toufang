@@ -1,5 +1,7 @@
 @import './base.css';
 
 #app {
-  
+  max-width: 460PX;
+  margin: 0 auto;
+  background: #fff;
 }

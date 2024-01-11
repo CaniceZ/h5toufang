@@ -11,7 +11,8 @@ import 'vant/es/dialog/style';
 import 'vant/es/notify/style';
 // ImagePreview
 import 'vant/es/image-preview/style';
-import 'amfe-flexible'
+// import 'amfe-flexible'
+import './utils/flexible.js'
 const app = createApp(App)
 
 app.use(router)
